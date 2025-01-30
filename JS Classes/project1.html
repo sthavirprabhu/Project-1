@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var temperature = 72
+        document.write('Temperature is ' + (temperature+=13) + '<br>')
+        var a = 10
+        document.write(typeof(a) + '<br>')
+        var count = 0
+        document.write('Count is ' + (count+=5) + '<br>')
+        //var prompt = prompt('What is your favorite color?')
+        var number1 = parseFloat(prompt('Enter Number 1'))
+        var number2 = parseFloat(prompt('Enter Number 2'))
+        document.write('The sum is ' + (number1+number2) + '<br>')
+        document.write('The difference is ' + (number1-number2) + '<br>')
+        document.write('The product is ' + (number1*number2) + '<br>')
+        document.write('The quotient is ' + (number1/number2) + '<br>')
+        var name = prompt('Enter your name')
+        var nameLength = name.length
+        document.write('The length of your name is ' + nameLength + '<br>')
+        document.write(confirm + '<br>')
+        var input1 = parseFloat(prompt('Please Enter a Number'))
+        var input2 = parseFloat(prompt('Please Enter a Number'))
+        var input3 = parseFloat(prompt('Please Enter a Number'))
+        document.write('The average of the 3 numbers is ' + (input1+input2+input3/3) + '<br>')
+        var age = parseFloat(prompt('Enter your age'))
+        document.write('You are ' + age + ' years old' + ' and your name is ' + name + '<br>')
+        var email = prompt('Enter your email')
+        var confirm = confirm('Are you sure you want to continue?')
+    </script>
+</body>
+</html>
